@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Solana Wallet Generator
+Comment=Генератор кошельков Solana
+Exec=gnome-terminal -- bash -c "cd /home/memnadzor/memnadzor/solana_wallets_generator && node generate_wallets.js; exec bash"
+Icon=terminal
+Terminal=true
+Categories=Development; 
